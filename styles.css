@@ -1,56 +1,5 @@
 *{
     margin: 0;
-    padding: 0;
-}
+    padding: 0; 
+} 
 
-/* body */ 
-
-body{
-    background-color: rgba(0,0,0,0.8)
-}
-
-/* header */
-
-header{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    margin: 5px;
-
-}
-
-/* Navbar */ 
-
-nav {
-    background-color: ragb(0,0,0,0.89);
-}
-
-ul{
-    position: relative;
-    display:flex ;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-li {
-    list-style-type: none;
-}
-
-a {
-    color: black;
-    font-family: sans-serif;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    transition-property: transform;
-    transition-duration: 0,5;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0.1s;
-}
-
-a:hover{
-    transform: translateY(-10px);
-    background-color: white;
-    color: rgba(0,0,0,0.8);
-}
