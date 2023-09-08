@@ -1,5 +1,43 @@
 *{
     margin: 0;
     padding: 0; 
+    box-sizing: border-box;
 } 
 
+.container{
+    background-color: green;
+    padding: 10px;
+    margin: 50px;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item {
+    background-image: url('../pexels-lukas-298673.jpg');
+    color: #fff;
+    font-size: 35px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.item-3 {
+    height:500px;
+    font-size: 27px;
+    background-color: black;
+}
+
+h2{
+    font-family: sans-serif;
+}
+.item-4 {
+    font-size: 70px;
+}
+
+.item-1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black
+}
