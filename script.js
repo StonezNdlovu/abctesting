@@ -14,3 +14,21 @@
 
 
  revealBtn.addEventListener('click', revealContent)
+
+
+ let alienShip = {
+    invade() {
+        console.log('They are coming to invade SA')
+    },
+    takeOff() {
+        console.log('its time to go now, let us retreat!')
+    }
+ };
+
+
+
+ alienShip.takeOff()
+
+  delete alienShip.invade();
+
+  console.log(alienShip)
