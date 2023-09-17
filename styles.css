@@ -172,3 +172,32 @@ li {
 
 /*form*/
 
+.form-log{
+    position:relative;
+    margin: 50px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+label{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(60, 247, 60)
+}
+
+input{
+    outline: none;
+    border-bottom: 1px solid rgb(60, 247, 60);
+    background-color: rgb(60, 247, 60);
+    color: #fff;
+    transition: width 0.4s ease-in-out;
+
+}
+
+input:focus{
+    width: 70%;
+}
+
+input::placeholder{
+    padding: 4px;
+    color: white;
+}
